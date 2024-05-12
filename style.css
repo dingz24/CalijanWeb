@@ -12,6 +12,7 @@ html {
 
 body{
     background-color: black;
+    margin: 0;
 }
 
 /*nav start*/
@@ -508,12 +509,6 @@ h4 {
 
 
 
-
-
-
-
-
-
 .contact-me {
     
     width: 100%;
@@ -522,6 +517,7 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .contact-me p {
@@ -529,14 +525,18 @@ h4 {
     color: white;
     font-size: 30px;
     font-weight: bold;
-    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 1cm;
+    
+   
     
 }
 
-.contact-me p span{
+.contact-me p span {
     font-size: 30px;
     color: green;
-    margin-left: 4px;
+    margin-left: 10px;
     font-weight: bold;
 
 }
@@ -546,26 +546,7 @@ h4 {
 
 
 
-
-
-
-
-
-
-footer {
-    height: 50vh;
-    position: relative;
-    width: 100%;
-    padding: 50px ;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-
-footer p {
+.style h2 {
     font-size: 30px;
     color: white;
     margin-bottom: 20px;
@@ -576,7 +557,7 @@ footer p {
     
 
 }
-footer span {
+.style span {
     font-size: 30px;
     color: green;
     margin-left: 10px;
@@ -584,14 +565,24 @@ footer span {
     
 }
 
-footer h1 {
+.style h1 {
     color: white;
-    font-size: 17px;
-    max-width: 500px;
-    text-align: center;
+    font-size: 17px;    
     line-height: 26px;
+    justify-content: center;
+    display: flex;
+   
+
+}
+
+.copyright p {
+    color: green;
+    font-size: 20px;
+
 }
 .social {
+    display: flex;
+    justify-content: center;
     display: flex;
 }
 
@@ -615,832 +606,26 @@ footer h1 {
     background-color: green;
 }
 
-.end {
-    position: absolute;
-    color: white;
-    bottom: 35px;
-    font-size: 14px;
-}
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 1200px) {
-    /*header are dapit */
-    .head {
-        height: 100vh;
-        width: 100%;
-        background-color: rgb(0, 0, 0);
-        background-size: cover;
-        background-position: center;
-    }
-    
-    nav {
-        font-size: large;
-        margin-top: -5px;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-top: 40px;
-        padding-left: 5%;
-        padding-right: 5%;
-        backdrop-filter: blur(12px);
-        z-index: 1;
-        background-color: rgba(0, 0, 0, 0.812);
-        padding-bottom: 3px;
-        position: fixed;
-    }
-    
-    .Logo {
-        color: white;
-        font-size: 20px;
-        letter-spacing: 1px;
-        cursor: pointer;
-    }
-    
-    .hamburger{
-        width: 30px;
-        height: 30px;
-        
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 20px;
-        transition: 0.5s;
-        cursor: pointer;
-    }
-    
-    .hamburger:hover  i{
-    color: green;
-    }
-    
-    .hamburger i{
-     font-size: 32px;
-     color: white;
-    }
-
-    span {
-        color: green;
-        
-    }
-
-        nav ul {
-            display: none;
-            position: fixed;
-            top: 90px;
-            left: 0;
-            width: 50%;
-            height: 100vh;
-            gap: 30px;
-            align-items: start;
-            flex-direction: column;
-            background-color: rgba(0, 0, 0, 0.936);
-            padding: 40px 5px;
-            z-index: 10;
-            transition: 0.6s;
-            margin-left: 0;
-
-        }
-        nav ul li {
-            list-style: none;
-            width: 100%;
-   
-          
-        }
-    
-        
-    .btn {
-    
-        margin-bottom: 20px;
-        font-size: 13px;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        margin-left: 9cm;
-        font-weight: bold;
-        padding: 5px 10px;
-        border: 3px solid green;
-        border-radius: 10px;
-        position: relative;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
-        color: white;
-        text-decoration: none;
-        transition: 0.3s ease all;
-        z-index: 1;
-        display: none;
-      }
-           /*header ari tamn*/
-
-      
-
-.content {
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
-
-}
-
-.content h1 {
-    color: white;
-    margin: 30px;
-    font-size: 55px !important;
-    margin-right: 10px;
-}
-
-.content h3 {
-    color: white;
-    font-size: 20px;
-    margin-bottom: 50px;
-    margin-left: 3px;
-    margin-bottom: 5px;
-}
-
-.content h4 {
-    color: white;
-    letter-spacing: 2px;
-    font-size: 26px;
-    margin-left: 1px;
-    
-}
-
-.content .btns {
-        
-        
-        color: white;
-        text-decoration: none;
-        border: 2px solid green;
-        font-weight: bold;
-        padding: 8px 25px;
-        display: block;
-        border-radius: 10px;
-        width: max-content;
-}
-.btns:hover{
-    background: green;
-}
-
-
-
-
-
-/*about*/
-      .about {
-     
-        width: 100%;
-        padding: 0px 0px;
-  
-    }
-    
-    .about img {
-        height: 50vh;
-        width: 100%;
-        max-width: 350px;
-        border: 2px solid green;
-        border-radius: 100px;
-    
-    }
-    
-    .about-text {
-        width: 100%;
-        max-width: 550px;
-        
-    }
-    
-    .main {
-        width: 100%;
-        max-width: 1130px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-around;
-    }
-    
-    .about-text h2 {
-        color: white;
-        font-size: 80px;
-        margin-left: 2.8cm;
-       
-        
-    }
-    
-    .about-text h5 {
-        color: white;
-        letter-spacing: 2px;
-        font-size: 26px;
-        margin-bottom: 10px;
-        text-transform: capitalize;
-        margin-left: 2.8cm;
-        text-align: justify;
-        
-    
-    }
-    
-    
-    .about-text p {
-        color: white;
-        letter-spacing: 1px;
-        line-height: 28px;
-        font-size: 18px;
-        margin-bottom: 20px;
-        margin-left: 1cm;
-        text-align: justify;
-        width: 85%;
-       
-    
-    }
-
-    .about-text span {
-        color: green;
-    
-    }
-    
-    .text {
-        letter-spacing: 1px;
-        font-size: 100px;
-        
-    }
-    
-    .checkbox {
-        display: none;
-    }
-    
-      
-    .text {
-        display: none;
-       
-    }
-    .text p {
-        margin-top: 1cm;
-        display: flex;
-        justify-content: center;
-        color: white;
-        align-items: justify;
-        width: 85%;
-        
-    }
-     
-    .checkbox:checked + .text {
-        display: block;
-    }
-    
-     
-    .button {
-        padding: 10px 20px;
-        background-color: black;
-        color: #fff;
-        border: 2px solid green;
-        border-radius: 10px;
-        cursor: pointer;
-        margin-left: 6.4cm;
-        
-    }
-    
-    .button:hover{
-       background-color: green;
-       transition: .6;
-    }
-/*about end*/
-
-
-/*portfolio ni ari dapit*/
-
-.portfolio {
-
-    height: max-content;
-    width: 100%;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-
-}
-
-.checkboxs {
-    display: none;
-     
-}
-  
-.info {
-    display: none;
-    height: 30%;
-    width: 100% !important;
-   
-}
-
-
-.info p {
-    font-size: large;
-    margin-top: 1cm;
-    color: white;
-    width: 100%;
-    text-align: justify;
-    background-color: black;
-    border: 3px solid green;
-    border-radius: 10px;
-    padding: 0px 0px;
-    margin-bottom: 20px;
-    letter-spacing: 1px;
-}
-
-
-.checkboxs:checked + .info {
-    display: block;
-   
-}
-
-
- 
-.buttons {
-    font-size: large;
-    padding: 10px 20px;
-    background-color: black;
-    color: #fff;
-    border: 2px solid green;
-    border-radius: 10px;
-    margin-left: 16px;
-    margin-top: 6cm;
-}
-
-.buttons:hover{
-   background-color: green;
-}
-.collection-container{
-  
-    width: 100%;
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    
-}
-
-.row1{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.card-container{
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-}
-
-.card-images{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    
-   
-}
-
-.card-image-1, .card-image-2, .card-image-3{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    box-shadow:
-    0 0 10px 10px black;
-
-}
-
-.card-image-1:hover, .card-image-2:hover, .card-image-3:hover{
-    transform: scale(1.1);
-    transition: 0.6s;
-
-}
-    
-
-.img{
-    height: 100%;
-    width: 100%;
-}
-
-.ading1{
-    background: url(s.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.ading2{
-    background: url(l.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.ading3{
-    background: url(q.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-
-}
-
-.hart1{
-    background: url(s.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.hart2{
-    background: url(l.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.hart3{
-    background: url(s.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-/*DRE TAMAN ANG PORTFOLIO*/
-
-
-
-
-
-
-/*contact*/
-
-.contact-me {
-    height: 50vh;
-    width: 100%;
-    padding: 20px;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact-me p {
-    margin-top: 2cm;
-    color: white;
-    font-size: 26px;
-    font-weight: bold;
-    margin-left: 20px;
-    width: 100%;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    
-}
-
-.contact-me p span{
-    font-size: 26px;
-    color: green;
-    margin-left: 4px;
-    font-weight: bold;
-    width: 100%;
-
-}
-
-
-    
-  }
-
-
-
 footer {
-    height: 50vh;
-    position: relative;
-    width: 100%;
-    padding: 50px ;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-
-footer p {
-    font-size: 30px;
-    color: white;
-    margin-bottom: 20px;
-    font-weight: bold;
-    
-    display: flex;
-    justify-content: center;
-    margin-left: 1cm;
+    background-color: green;
     
 
 }
-footer span {
-    font-size: 30px;
-    color: green;
-    margin-left: 10px;
-    font-weight: bold;
-    
-}
 
-footer h1 {
-    color: white;
-    font-size: 17px;
-    max-width: 500px;
-    text-align: center;
-    line-height: 26px;
-    margin-left: 1.6cm;
-}
-.social {
-    display: flex;
-    margin-left: 1cm;
-}
-
-.social a {
-    width: 50px;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: black;
-    border: 2px solid green;
-    border-radius: 50%;
-    margin: 25px 10px;
-    color: white;
-    text-decoration: none;
+footer p{
+    font-family:'Courier New', Courier, monospace;
     font-size: 20px;
-    
-
-}
-
-
-    @media screen and (max-width: 600px) {
-    .about {
-        width: 100%;
-        padding: 0px 0px;
-    
-    }
-    
-    .about img {
-        height: 50vh;
-        width: 100%;
-        max-width: 300px;
-        border: 2px solid green;
-        border-radius: 100px;
-    
-    }
-    
-    .about-text {
-        width: 100%;
-        max-width: 550px;
-        
-    }
-    
-    .main {
-        width: 100%;
-        max-width: 1130px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-around;
-    }
-    
-    .about-text h2 {
-        color: white;
-        font-size: 50px;
-        margin-left: 2.5cm;
-        
-       
-      
-        
-    }
-    
-    .about-text h5 {
-        color: white;
-        letter-spacing: 2px;
-        font-size: 20px;
-        margin-bottom: 5px;
-        text-transform: capitalize;
-        margin-left: 2.1cm;
-        padding: 2px 10px;
-        text-align: justify;
-        
-    
-    }
-    
-    
-    .about-text p {
-        color: white;
-        letter-spacing: 1px;
-        line-height: 28px;
-        font-size: 18px;
-        margin-bottom: 30px;
-        margin-left: 1cm;
-        text-align: justify;
-        width: 80%;
-        
-    }
-
-    .button {
-        padding: 10px 20px;
-        background-color: black;
-        color: #fff;
-        border: 2px solid green;
-        border-radius: 10px;
-        cursor: pointer;
-        margin-left: 4.6cm;
-        
-    }
-    
-    .button:hover{
-       background-color: green;
-       transition: .6;
-    }
-
-    
-
-.contact-me {
-    height: 50vh;
-    width: 100%;
-    padding: 20px;
-    background-color: black;
+    color: white;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: center;
+    padding: 15px;
 }
 
-.contact-me p {
-    margin-top: 2cm;
-    color: white;
-    font-size: 26px;
-    font-weight: bold;
-    margin-left: 20px;
-    width: 100%;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    
-}
-
-.contact-me p span{
-    font-size: 26px;
-    color: green;
-    margin-left: 4px;
-    font-weight: bold;
-    width: 100%;
-
-}
-
-footer {
-    height: 50vh;
-    position: relative;
-    width: 100%;
-    padding: 50px ;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-
-footer p {
-    font-size: 30px;
-    color: white;
-    margin-bottom: 20px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    
-
-}
-footer span {
-    font-size: 30px;
-    color: green;
-    margin-left: 10px;
-    font-weight: bold;
-    
-}
-
-footer h1 {
-    color: white;
-    font-size: 17px;
-    max-width: 500px;
-    text-align: center;
-    line-height: 26px;
-    margin-left: 1cm;
-}
-.social {
-    display: flex;
-   
-}
-
-.social a {
-    width: 50px;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: black;
-    border: 2px solid green;
-    border-radius: 50%;
-    margin: 25px 10px;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    
-
-}
-    }
 
 
 
-@media screen and (max-width: 380px) {
-    .about {
-        width: 100%;
-        padding: 0px 0px;
-    
-    }
-    
-    .about img {
-        height: 50vh;
-        width: 100%;
-        max-width: 300px;
-        border: 2px solid green;
-        border-radius: 100px;
-    
-    }
-    
-    .about-text {
-        width: 100%;
-        max-width: 550px;
-        
-    }
-    
-    .main {
-        width: 100%;
-        max-width: 1130px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-around;
-    }
-    
-    .about-text h2 {
-        color: white;
-        font-size: 50px;
-        margin-left: 2cm;
 
 
-        
-    }
-    
-    .about-text h5 {
-        color: white;
-        letter-spacing: 2px;
-        font-size: 20px;
-        margin-bottom: 5px;
-        text-transform: capitalize;
-        margin-left: 1.6cm;
-        padding: 2px 10px;
-        text-align: justify;
-        
-    
-    }
-    
-    
-    .about-text p {
-        color: white;
-        letter-spacing: 1px;
-        line-height: 28px;
-        font-size: 18px;
-        margin-bottom: 22px;
-        margin-left: 1cm;
-        text-align: justify;
-        width: 80%;
-        
-    }
 
-    .button {
-        padding: 10px 20px;
-        background-color: black;
-        color: #fff;
-        border: 2px solid green;
-        border-radius: 10px;
-        cursor: pointer;
-        margin-left: 4cm;
-        
-    }
-    
-    .button:hover{
-       background-color: green;
-       transition: .6;
-    }
-}
+
