@@ -543,6 +543,19 @@ footer p{
 }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
     @media screen and (max-width: 800px) {
     .about {
         width: 100%;
@@ -615,6 +628,8 @@ footer p{
         
     }
 
+    
+  
 }
 
 
@@ -693,7 +708,7 @@ footer p{
             border: 2px solid green;
             border-radius: 10px;
             cursor: pointer;
-            margin-left: 5.3cm;
+            margin-left: 4.5cm;
             
         }
         
