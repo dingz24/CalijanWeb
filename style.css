@@ -306,6 +306,7 @@ h4 {
     align-items: justify;
     width: 100%;
     
+    
 }
  
 .checkbox:checked + .text {
@@ -379,11 +380,10 @@ h4 {
     margin-top: 10px;
     color: white;
     width: 100%;
-    text-align: justify;
-    background-color: black;
-    border: 3px solid green;
+    text-align: center;
+    background-color: green;
+    padding: 16px 10px;
     border-radius: 10px;
-    padding: 20px 10px;
     margin-bottom: 40px;
 }
 
@@ -433,6 +433,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 
 }
 
@@ -440,6 +441,7 @@ h4 {
     height: 100%;
     width: 100%;
     display: flex;
+    
     
    
 }
@@ -450,6 +452,7 @@ h4 {
     display: flex;
     box-shadow:
     0 0 10px 10px black;
+    
 
 }
 
@@ -491,13 +494,13 @@ h4 {
 }
 
 .hart2{
-    background: url(l.jpg) no-repeat;
+    background: url(kk.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .hart3{
-    background: url(s.jpg) no-repeat;
+    background: url(l.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
