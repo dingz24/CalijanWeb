@@ -195,7 +195,7 @@
         color: white;
         font-size: 80px;
         margin-left: 2.5cm;
-        background-color: aqua;
+        
     }
     
     .about-text h5 {
@@ -208,11 +208,11 @@
         display: flex;
         justify-content: center;
         width: 100%;
-        
     
     }
-    
-    
+
+   
+
     .about-text p {
         color: white;
         letter-spacing: 1px;
@@ -393,7 +393,6 @@
     transition: 0.6s;
 
 }
-    
 
 .img{
     height: 100%;
@@ -438,8 +437,6 @@
 }
 
 /*DRE TAMAN ANG PORTFOLIO*/
-
-
 
 
 
@@ -499,7 +496,7 @@
 
 .style h1 {
     color: white;
-    font-size: 17px;
+    font-size: 12px;
     line-height: 26px;
     justify-content: center;
     display: flex;
@@ -537,7 +534,7 @@ footer {
 
 footer p{
     font-family:'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 11px;
     color: white;
     display: flex;
     justify-content: center;
@@ -584,7 +581,8 @@ footer p{
     width: 100%;
     margin-left: .5cm;
     text-align: center;
-    background-color: red;
+    
+    
      
     }
     
@@ -594,11 +592,16 @@ footer p{
         font-size: 20px;
         margin-bottom: 5px;
         text-transform: capitalize;
-        margin-left: 4.2cm;
+        margin-left: .5cm;
         padding: 2px 10px;
         text-align: justify;
     
     }
+    .about-text span{
+        color: green;
+        
+        
+    }    
     
     .about-text p {
         color: white;
@@ -612,22 +615,7 @@ footer p{
         
     }
 
-    .button {
-        padding: 10px 20px;
-        background-color: black;
-        color: #fff;
-        border: 2px solid green;
-        border-radius: 10px;
-        cursor: pointer;
-        margin-left: 6.4cm;
-        
-    }
-    
-    .button:hover{
-       background-color: green;
-       transition: .6;
-    }
-    }
+}
 
 
     @media screen and (max-width: 680px) {
@@ -668,7 +656,7 @@ footer p{
             margin-left: 0;
            width: 100%;
            text-align: center;
-           background-color: yellow;
+          
          
         }
         
@@ -705,7 +693,7 @@ footer p{
             border: 2px solid green;
             border-radius: 10px;
             cursor: pointer;
-            margin-left: 4.6cm;
+            margin-left: 5.3cm;
             
         }
         
@@ -729,7 +717,7 @@ footer p{
         color: white;
         font-size: 26px;
         font-weight: bold;
-        margin-left: 20px;
+        margin-left: -9px;
         width: 100%;
         display: flex;
         text-align: center;
@@ -747,39 +735,9 @@ footer p{
     }
     
     
-    
-    .style h2 {
-      font-size: 30px;
-      color: white;
-      margin-bottom: 20px;
-      font-weight: bold;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      
-    
-    }
-    .style span {
-      font-size: 30px;
-      color: green;
-      margin-left: 10px;
-      font-weight: bold;
-      
-    }
-    
-    .style h1 {
-      color: white;
-      font-size: 12px;
-      line-height: 26px;
-      justify-content: center;
-      display: flex;
-      width: 90%;
-     
-    }
-    
     .social {
       display: flex;
-      margin-left: 1cm;
+      margin-left: .7cm;
     
     }
     .social a {
@@ -799,23 +757,7 @@ footer p{
     
     }
     
-    footer {
-      background-color: pink;
-      
     }
-    
-    footer p{
-      font-family:'Courier New', Courier, monospace;
-      font-size: 13px;
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 15px;
-     
-    }
-        }
-    
 
 
 
@@ -857,7 +799,7 @@ footer p{
             margin-left: 0;
            width: 100%;
            text-align: center;
-           background-color: pink;
+           
          
         }
         
@@ -896,7 +838,7 @@ footer p{
             border: 2px solid green;
             border-radius: 10px;
             cursor: pointer;
-            margin-left: 4.6cm;
+            margin-left: 4cm;
             
         }
         
@@ -920,90 +862,64 @@ footer p{
         color: white;
         font-size: 26px;
         font-weight: bold;
-        margin-left: 20px;
+        margin-left: .2cm;
         width: 100%;
         display: flex;
         text-align: center;
         flex-direction: column;
         
     }
-    
-    .contact-me p span{
-        font-size: 26px;
-        color: green;
-        margin-left: 4px;
-        font-weight: bold;
-        width: 100%;
-    
-    }
-    
-    
-    
-    .style h2 {
-      font-size: 30px;
-      color: white;
-      margin-bottom: 20px;
-      font-weight: bold;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      
-    
-    }
-    .style span {
-      font-size: 30px;
-      color: green;
-      margin-left: 10px;
-      font-weight: bold;
-      
-    }
-    
-    .style h1 {
-      color: white;
-      font-size: 12px;
-      line-height: 26px;
-      justify-content: center;
-      display: flex;
-      width: 90%;
-     
-    }
-    
-    .social {
-      display: flex;
-      margin-left: 1cm;
-    
-    }
-    .social a {
-      width: 50px;
-      height: 45px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: black;
-      border: 2px solid green;
-      border-radius: 50%;
-      margin: 25px 10px;
-      color: white;
-      text-decoration: none;
-      font-size: 20px;
-      
-    
-    }
-    
-    footer {
-      background-color: pink;
-      
-    }
-    
-    footer p{
-      font-family:'Courier New', Courier, monospace;
-      font-size: 13px;
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 15px;
-     
-    }
-        }
-    
+
+.style h2 {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  
+
+}
+.style span {
+  font-size: 30px;
+  color: green;
+  margin-left: 10px;
+  font-weight: bold;
+  
+}
+
+.style h1 {
+  color: white;
+  font-size: 11px;
+  line-height: 20px;
+  justify-content: center;
+  display: flex;
+  width: 90%;
+ 
+}
+
+.social {
+  display: flex;
+  margin-left: .2cm;
+
+}
+.social a {
+  width: 50px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  border: 2px solid green;
+  border-radius: 50%;
+  margin: 25px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  
+
+}
+
+}
