@@ -211,8 +211,11 @@
     
     }
 
-   
-
+    .about-text h5 span {
+        color: green;
+        margin-left: 10px;
+    
+    }
     .about-text p {
         color: white;
         letter-spacing: 1px;
@@ -547,93 +550,7 @@ footer p{
 
 
 
-
-
-
-
-
-
-
-
-
-    @media screen and (max-width: 800px) {
-    .about {
-        width: 100%;
-        padding: 0px 0px;
-    
-    }
-    
-    .about img {
-        height: 50vh;
-        width: 100%;
-        max-width: 300px;
-        border: 2px solid green;
-        border-radius: 100px;
-    
-    }
-    
-    .about-text {
-        width: 100%;
-        max-width: 550px;
-        
-    }
-    
-    .main {
-        width: 100%;
-        max-width: 1130px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-around;
-    }
-    
-    .about-text h2 {
-    color: white;
-    font-size: 50px;
-    width: 100%;
-    margin-left: .5cm;
-    text-align: center;
-    
-    
-     
-    }
-    
-    .about-text h5 {
-        color: white;
-        letter-spacing: 2px;
-        font-size: 20px;
-        margin-bottom: 5px;
-        text-transform: capitalize;
-        margin-left: .5cm;
-        padding: 2px 10px;
-        text-align: justify;
-    
-    }
-    .about-text span{
-        color: green;
-        
-        
-    }    
-    
-    .about-text p {
-        color: white;
-        letter-spacing: 1px;
-        line-height: 28px;
-        font-size: 18px;
-        margin-bottom: 30px;
-        margin-left: 1cm;
-        text-align: justify;
-        width: 80%;
-        
-    }
-
-    
-  
-}
-
-
-    @media screen and (max-width: 680px) {
+    @media screen and (max-width: 780px) {
         .about {
             width: 100%;
             padding: 0px 0px;
@@ -666,12 +583,12 @@ footer p{
         }
         
         .about-text h2 {
-            color: white;
-            font-size: 50px;
-            margin-left: 0;
+           color: white;
+           font-size: 50px;
+           margin-left: 0;
            width: 100%;
            text-align: center;
-          
+           background-color: blue;
          
         }
         
@@ -688,7 +605,12 @@ footer p{
    
         
         }
-        
+
+        .about-text h5 span {
+            color: green;
+            margin-left: 10px;
+
+        }
         .about-text p {
             color: white;
             letter-spacing: 1px;
@@ -708,7 +630,7 @@ footer p{
             border: 2px solid green;
             border-radius: 10px;
             cursor: pointer;
-            margin-left: 4.5cm;
+            margin-left: 1cm;
             
         }
         
@@ -814,6 +736,7 @@ footer p{
             margin-left: 0;
            width: 100%;
            text-align: center;
+           background-color: aqua;
            
          
         }
@@ -830,9 +753,18 @@ footer p{
             padding: 2px 10px;
             display: flex;
             justify-content: center;
+
+        }    
+
+        .about-text h5 span {
+            color: green;
+            margin-left: 10px;
+
+
+        }  
    
         
-        }
+        
         
         .about-text p {
             color: white;
@@ -853,7 +785,7 @@ footer p{
             border: 2px solid green;
             border-radius: 10px;
             cursor: pointer;
-            margin-left: 4cm;
+            margin-left: 1cm;
             
         }
         
