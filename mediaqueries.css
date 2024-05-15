@@ -829,7 +829,7 @@ footer p{
 }
 .style span {
   font-size: 30px;
-  color: green;
+  color: green;   
   margin-left: 10px;
   font-weight: bold;
   
@@ -839,9 +839,9 @@ footer p{
   color: white;
   font-size: 11px;
   line-height: 20px;
-  justify-content: center;
-  display: flex;
   width: 90%;
+  
+
  
 }
 
