@@ -38,7 +38,7 @@ nav {
     padding-right: 5%;
     backdrop-filter: blur(12px);
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.812);
+    background-color: black;
     padding-bottom: 3px;
 }
 
@@ -80,10 +80,12 @@ span {
 nav ul {
     margin-left:0;
     display: flex;
+    
 }
 
 nav ul li {
     list-style: none;
+    
   
 }
 
@@ -193,7 +195,7 @@ h4 {
         text-decoration: none;
         border: 2px solid green;
         font-weight: bold;
-        padding: 8px 25px;
+        padding: 8px 15px;
         display: block;
         border-radius: 10px;
         width: max-content;
@@ -212,7 +214,7 @@ h4 {
 
 
 
-
+/*about start*/
 
 .about {
     
@@ -224,7 +226,7 @@ h4 {
 .about img {
     height: auto;
     width: 100%;
-    max-width: 460px;
+    max-width: 470px;
     border: 2px solid green;
     border-radius: 100px;
 
@@ -316,13 +318,13 @@ h4 {
  
 .button {
     width: 85px;
-    padding: 10px 20px;
+    padding: 10px 10px;
     background-color: black;
     color: #fff;
     border: 2px solid green;
     border-radius: 10px;
     cursor: pointer;
-    margin-left: 7.3cm;
+    margin-left: 8cm;
     
     
 }
@@ -382,9 +384,7 @@ h4 {
     color: white;
     width: 100%;
     text-align: center;
-    background-color: green;
     padding: 16px 10px;
-    border-radius: 10px;
     margin-bottom: 40px;
 }
 
@@ -397,14 +397,13 @@ h4 {
 
  
 .buttons {
-    font-size: large;
-    padding: 10px 20px;
+    font-size: 20px;
+    padding: 10px 10px;
     background-color: black;
     color: #fff;
     border: 2px solid green;
     border-radius: 10px;
-    margin-left: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .buttons:hover{
