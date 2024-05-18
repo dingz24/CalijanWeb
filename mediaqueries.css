@@ -637,6 +637,13 @@ footer p{
            transition: .6;
         }
     
+        .buttons {
+            font-size: 20px;
+            padding: 10px 10px;
+            margin-right: 18px;
+            
+        }
+
     .contact-me {
         height: 50vh;
         width: 100%;
