@@ -54,7 +54,6 @@ nav {
 .hamburger{
     width: 30px;
     height: 30px;
-    
     border-radius: 50%;
     display: none;
     align-items: center;
@@ -78,7 +77,7 @@ span {
 }
 
 nav ul {
-    margin-left:0;
+    margin-right: 1.4cm;
     display: flex;
     
 }
@@ -113,7 +112,6 @@ nav ul li a:hover {
     font-size: 13px;
     letter-spacing: 2px;
     text-transform: uppercase;
-
     font-weight: bold;
     padding: 5px 10px;
     border: 3px solid green;
@@ -224,11 +222,11 @@ h4 {
 }
 
 .about img {
-    height: auto;
+    height: 84vh;
     width: 100%;
-    max-width: 470px;
+    max-width: 460px;
     border: 2px solid green;
-    border-radius: 100px;
+    border-radius: 90px;
 
 }
 
@@ -258,10 +256,10 @@ h4 {
 .about-text h5 {
     color: white;
     letter-spacing: 2px;
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 16px;
     text-transform: capitalize;
-    margin-left: 5cm;
+    margin-left: 4.5cm;
     padding: 2px 10px;
     text-align: justify;
     
