@@ -29,5 +29,18 @@ window.addEventListener('resize', function() {
     }else{
       navUl.style.display = 'none';
     }
-});
+}
+);
+
+
+
+function sendFeedback(type) {
+    const feedbackMessage = document.getElementById('feedbackMessage');
+    if (type === 'like') {
+        feedbackMessage.textContent = 'You liked this!';
+    } else if (type === 'unlike') {
+        feedbackMessage.textContent = 'You unliked this!';
+    }
+    feedbackMessage.classList.add('visible');
+}
 
